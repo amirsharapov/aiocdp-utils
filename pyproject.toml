@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiocdp-utils"
+version = "1.0.0"
+description = "Utility modules for the aiocdp library."
+readme = "README.md"
+authors = [
+    {name = "Amir Sharapov", email = "amirsharapov.personal@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = [
+    "cdp",
+    "chrome devtools protocol",
+    "chrome",
+    "devtools",
+    "browser",
+    "automation"
+]
+dependencies = [
+    'aiocdp',
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/amirsharapov/aiocdp-utils"
